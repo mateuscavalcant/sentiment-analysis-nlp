@@ -8,7 +8,7 @@ Make sure you have the following Python libraries installed in your environment:
 - nltk (Natural Language Toolkit): For tokenization and part-of-speech tagging of the comments.
 - textblob: For sentiment analysis.
 - pandas: For data manipulation in tabular format.
-- wordcloud: For generating word clouds based on text data
+- wordcloud: For generating word clouds based on text data.
 
 Install the required dependencies:
 ```sh
