@@ -1,18 +1,28 @@
-# analysis-sentiment-nlp
+# sentiment-analysis-nlp
 
-Este projeto visa realizar a análise de sentimento em comentários coletados sobre o app do Twitter, utilizando técnicas de processamento de linguagem natural (NLP). O objetivo é determinar se os comentários são positivos, negativos ou neutros.
+This project aims to perform sentiment analysis on collected comments about the Twitter app, using natural language processing (NLP) techniques. The goal is to determine whether the comments are positive, negative, or neutral.
 
-## Pré-requisitos
-Certifique-se de ter as seguintes bibliotecas Python instaladas no seu ambiente:
+## Prerequisites
+Make sure you have the following Python libraries installed in your environment:
 
-- nltk (Natural Language Toolkit): Para a tokenização e marcação de partes do comentário.
-- textblob: Para a análise de sentimentos.
-- pandas: Para a manipulação dos dados em formato tabular.
+- nltk (Natural Language Toolkit): For tokenization and part-of-speech tagging of the comments.
+- textblob: For sentiment analysis.
+- pandas: For data manipulation in tabular format.
+- wordcloud: For generating word clouds based on text data
 
-Você pode instalar essas bibliotecas usando o gerenciador de pacotes pip com os seguintes comandos:
-
+Install the required dependencies:
 ```sh
 pip install nltk
+```
+
+```sh
 pip install textblob
+```
+
+```sh
 pip install pandas
+```
+
+```
+pip isntall worddcloud
 ```
